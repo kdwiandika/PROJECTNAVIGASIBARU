@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PROJECT NAVIGASI</string>
+    <string name="title_activity_spbumaps">Map</string>
+    <string name="title_activity_kantor_polisi_maps">Map</string>
+    <string name="title_activity_rumah_sakit_maps">Map</string>
+    <string name="title_activity_hotel_maps">Map</string>
+</resources>
