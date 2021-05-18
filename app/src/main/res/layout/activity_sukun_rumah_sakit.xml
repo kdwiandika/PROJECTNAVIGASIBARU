@@ -35,21 +35,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : Army Hospital Doctor Soepraoen"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Jl. S. Supriadi No.22, Sukun, Kec. Sukun, Kota Malang, Jawa Timur 65112"
+                    android:text="Alamat Tujuan : "
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSRSakit2"
                 android:layout_width="match_parent"
@@ -67,21 +63,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : Rumah Bersalin (RB) Soerodjo"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : JL. S.Soepriad, No 39, Sukun, Kec. Sukun, Kota Malang, Jawa Timur 65139"
+                    android:text="Alamat Tujuan :"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSRSakit3"
                 android:layout_width="match_parent"
@@ -99,21 +91,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : Rumah Sakit Prima Husada"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : JL Banjararum Selatan No. 3, Tanjungrejo, Kec. Sukun, Kota Malang, Jawa Timur 65147"
+                    android:text="Alamat Tujuan : "
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSRSakit4"
                 android:layout_width="match_parent"
@@ -131,21 +119,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : Poliklinik Bentoel Janti"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Jl. Niaga No.28, Ciptomulyo, Kec. Sukun, Kota Malang, Jawa Timur 65148"
+                    android:text="Alamat Tujuan : "
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSRSakit5"
                 android:layout_width="match_parent"
@@ -173,11 +157,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSRSakit6"
                 android:layout_width="match_parent"
@@ -205,11 +185,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSRSakit7"
                 android:layout_width="match_parent"
@@ -237,11 +213,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSRSakit8"
                 android:layout_width="match_parent"
@@ -269,11 +241,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSRSakit9"
                 android:layout_width="match_parent"
@@ -301,11 +269,8 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
+
 
         </LinearLayout>
 

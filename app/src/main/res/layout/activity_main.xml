@@ -6,104 +6,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="8dp"
-    tools:context=".MainActivity"
-    android:background="@drawable/bg"
-    android:layout_gravity="center">
+    tools:context=".MainActivity">
 
-    <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:alignmentMode="alignMargins"
-        android:columnCount="1"
-        android:columnOrderPreserved="false"
-        android:rowCount="3"
-        tools:foregroundGravity="center"
-        android:paddingTop="60dp"
-        android:paddingBottom="60dp">
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="250dp"
-            android:layout_height="125dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="center"
-            android:layout_margin="5dp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="5dp">
+    <Button
+        android:id="@+id/btnKlojen"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:text="Klojen"
+        android:textAllCaps="false"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="5dp"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/white"
-                android:gravity="center">
+    <Button
+        android:id="@+id/btnLowokwaru"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:text="Lowokwaru"
+        android:textAllCaps="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="5dp"/>
 
-                <Button
-                    android:id="@+id/btnLowokwaru"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Lowokwaru"
-                    android:textColor="@color/black"
-                    android:textSize="20dp"
-                    app:backgroundTint="#FFFFFF" />
+    <Button
+        android:id="@+id/btnSukun"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:text="Sukun"
+        android:textAllCaps="false"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="290dp" />
 
 
 
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="250dp"
-            android:layout_height="125dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="center"
-            android:layout_margin="5dp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="5dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/white"
-                android:gravity="center" >
-
-                <Button
-                    android:id="@+id/btnKlojen"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Klojen"
-                    android:textColor="@color/black"
-                    android:textSize="20dp"
-                    app:backgroundTint="#FFFFFF" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="250dp"
-            android:layout_height="125dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="center"
-            android:layout_margin="5dp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="5dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/white"
-                android:gravity="center" >
-
-                <Button
-                    android:id="@+id/btnSukun"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Sukun"
-                    android:textColor="@color/black"
-                    android:textSize="20dp"
-                    app:backgroundTint="#FFFFFF" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-    </GridLayout>
 
 </RelativeLayout>

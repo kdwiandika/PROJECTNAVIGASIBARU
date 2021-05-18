@@ -17,7 +17,7 @@ public class LowokwaruPasar extends AppCompatActivity {
         LinearLayout btnLPasar1 = findViewById(R.id.btnLPasar1);
         LinearLayout btnLPasar2 = findViewById(R.id.btnLPasar2);
         LinearLayout btnLPasar3 = findViewById(R.id.btnLPasar3);
-        LinearLayout btnLPasar4 = findViewById(R.id.btnLPasar4);
+        LinearLayout btnLPasar4 = findViewById(R.id.btnKPasar4);
 
 
 
@@ -25,9 +25,9 @@ public class LowokwaruPasar extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.942271412499126);
-                bundle.putDouble("longitude", 112.6168246538705);
-                bundle.putString("title","Marker in Pasar Omah Malang");
+                bundle.putDouble("latitude",-7.9886395);
+                bundle.putDouble("longitude",112.6277425);
+                bundle.putString("title","Marker in Pasar 1");
 
                 Intent intent = new Intent(LowokwaruPasar.this, PasarMaps.class);
                 intent.putExtras(bundle);
@@ -40,9 +40,9 @@ public class LowokwaruPasar extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.961036273888951);
-                bundle.putDouble("longitude", 112.61347532897948);
-                bundle.putString("title","Marker in Kios pasar sayur sutami");
+                bundle.putDouble("latitude",-7.9886395);
+                bundle.putDouble("longitude",112.6277425);
+                bundle.putString("title","Marker in Pasar 2");
 
                 Intent intent = new Intent(LowokwaruPasar.this, PasarMaps.class);
                 intent.putExtras(bundle);
@@ -55,9 +55,9 @@ public class LowokwaruPasar extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.938692498160148);
-                bundle.putDouble("longitude", 112.58728972380095);
-                bundle.putString("title","Pasar Pintar Joyo Agung");
+                bundle.putDouble("latitude",-7.9773719);
+                bundle.putDouble("longitude",112.6356159);
+                bundle.putString("title","Marker in Pasar 3");
 
                 Intent intent = new Intent(LowokwaruPasar.this, PasarMaps.class);
                 intent.putExtras(bundle);
@@ -70,9 +70,9 @@ public class LowokwaruPasar extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.940107810573565);
-                bundle.putDouble("longitude", 112.63934590565756);
-                bundle.putString("title","Marker in Pasar Blimbing");
+                bundle.putDouble("latitude",-7.9741609);
+                bundle.putDouble("longitude",112.6365951);
+                bundle.putString("title","Marker in Pasar 4");
 
                 Intent intent = new Intent(LowokwaruPasar.this, PasarMaps.class);
                 intent.putExtras(bundle);

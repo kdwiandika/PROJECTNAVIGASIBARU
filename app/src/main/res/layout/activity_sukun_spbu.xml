@@ -35,21 +35,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : SPBU Pertamina 54-651.60"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : JL. Puncak Mandala, No. A1-A2, Pisang Candi, Kec. Sukun, Kota Malang, Jawa Timur 65146"
+                    android:text="Alamat Tujuan : "
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSSPBU2"
                 android:layout_width="match_parent"
@@ -67,21 +63,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : SPBU Pertamina 54.651.14"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Jl. S. Supriadi No.108, Sukun, Kec. Sukun, Kota Malang, Jawa Timur 65147"
+                    android:text="Alamat Tujuan :"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSSPBU3"
                 android:layout_width="match_parent"
@@ -99,21 +91,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : SPBU Pertamina"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Jl. Kolonel Sugiono No.10, Ciptomulyo, Kec. Sukun, Kota Malang, Jawa Timur 65148"
+                    android:text="Alamat Tujuan : "
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSSPBU4"
                 android:layout_width="match_parent"
@@ -131,21 +119,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : SPBU Pertamina 54.651.33"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Jalan Raya Lowokdoro, Kebonsari, Sukun, Kebonsari, Kec. Sukun, Kota Malang, Jawa Timur 65149"
+                    android:text="Alamat Tujuan : "
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSSPBU5"
                 android:layout_width="match_parent"
@@ -173,11 +157,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSSPBU6"
                 android:layout_width="match_parent"
@@ -205,11 +185,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSSPBU7"
                 android:layout_width="match_parent"
@@ -237,11 +213,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSSPBU8"
                 android:layout_width="match_parent"
@@ -269,11 +241,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnSSPBU9"
                 android:layout_width="match_parent"
@@ -301,11 +269,8 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
+
 
         </LinearLayout>
 

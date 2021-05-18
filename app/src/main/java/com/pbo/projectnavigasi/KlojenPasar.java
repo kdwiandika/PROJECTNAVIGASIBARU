@@ -25,9 +25,9 @@ public class KlojenPasar extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.972864209780584);
-                bundle.putDouble("longitude",112.63685640109684);
-                bundle.putString("title","Marker in Klojen Traditional Market");
+                bundle.putDouble("latitude",-7.9886395);
+                bundle.putDouble("longitude",112.6277425);
+                bundle.putString("title","Marker in Pasar 1");
 
                 Intent intent = new Intent(KlojenPasar.this, PasarMaps.class);
                 intent.putExtras(bundle);
@@ -36,49 +36,49 @@ public class KlojenPasar extends AppCompatActivity {
             }
         });
 
-//        btnKPasar2.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Bundle bundle = new Bundle();
-//                bundle.putDouble("latitude",-7.972864209780584);
-//                bundle.putDouble("longitude", 112.63685640109684);
-//                bundle.putString("title","Marker in Klojen Traditional Market");
-//
-//                Intent intent = new Intent(KlojenPasar.this, PasarMaps.class);
-//                intent.putExtras(bundle);
-//                startActivity(intent);
-//
-//            }
-//        });
-//
-//        btnKPasar3.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Bundle bundle = new Bundle();
-//                bundle.putDouble("latitude",-7.9773719);
-//                bundle.putDouble("longitude",112.6356159);
-//                bundle.putString("title","Marker in Pasar 3");
-//
-//                Intent intent = new Intent(KlojenPasar.this, PasarMaps.class);
-//                intent.putExtras(bundle);
-//                startActivity(intent);
-//
-//            }
-//        });
-//
-//        btnKPasar4.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Bundle bundle = new Bundle();
-//                bundle.putDouble("latitude",-7.9741609);
-//                bundle.putDouble("longitude",112.6365951);
-//                bundle.putString("title","Marker in Pasar 4");
-//
-//                Intent intent = new Intent(KlojenPasar.this, PasarMaps.class);
-//                intent.putExtras(bundle);
-//                startActivity(intent);
-//
-//            }
-//        });
+        btnKPasar2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle bundle = new Bundle();
+                bundle.putDouble("latitude",-7.9886395);
+                bundle.putDouble("longitude",112.6277425);
+                bundle.putString("title","Marker in Pasar 2");
+
+                Intent intent = new Intent(KlojenPasar.this, PasarMaps.class);
+                intent.putExtras(bundle);
+                startActivity(intent);
+
+            }
+        });
+
+        btnKPasar3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle bundle = new Bundle();
+                bundle.putDouble("latitude",-7.9773719);
+                bundle.putDouble("longitude",112.6356159);
+                bundle.putString("title","Marker in Pasar 3");
+
+                Intent intent = new Intent(KlojenPasar.this, PasarMaps.class);
+                intent.putExtras(bundle);
+                startActivity(intent);
+
+            }
+        });
+
+        btnKPasar4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle bundle = new Bundle();
+                bundle.putDouble("latitude",-7.9741609);
+                bundle.putDouble("longitude",112.6365951);
+                bundle.putString("title","Marker in Pasar 4");
+
+                Intent intent = new Intent(KlojenPasar.this, PasarMaps.class);
+                intent.putExtras(bundle);
+                startActivity(intent);
+
+            }
+        });
     }
 }

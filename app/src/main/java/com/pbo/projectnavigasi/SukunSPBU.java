@@ -25,10 +25,10 @@ public class SukunSPBU extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.96419851536405);
-                bundle.putDouble("longitude", 112.60311254400263);
-                bundle.putString("title","Marker in SPBU Pertamina 54-651.60");
-                bundle.putString("data","SukunSPBU");
+                bundle.putDouble("latitude",-7.986216438471941);
+                bundle.putDouble("longitude", 112.62668843465708);
+                bundle.putString("title","Marker in SPBU PERTAMINA");
+                bundle.putString("data","KSukunSPBU");
 
                 Intent intent = new Intent(SukunSPBU.this, SPBUMaps.class);
                 intent.putExtras(bundle);
@@ -41,10 +41,10 @@ public class SukunSPBU extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.995375120170025);
-                bundle.putDouble("longitude", 112.61976757606905);
-                bundle.putString("title","Marker in SPBU Pertamina 54.651.14");
-                bundle.putString("data","SukunSPBU");
+                bundle.putDouble("latitude",-7.980593713284669);
+                bundle.putDouble("longitude", 112.63743995016918);
+                bundle.putString("title","Marker in SPBU PERTAMINA");
+                bundle.putString("data","KSukunSPBU");
 
                 Intent intent = new Intent(SukunSPBU.this, SPBUMaps.class);
                 intent.putExtras(bundle);
@@ -57,10 +57,10 @@ public class SukunSPBU extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-8.003839345919888);
-                bundle.putDouble("longitude", 112.63008019037252);
-                bundle.putString("title","Marker in SPBU PERTAMINA");
-                bundle.putString("data","SukunSPBU");
+                bundle.putDouble("latitude",-7.961950501492613);
+                bundle.putDouble("longitude", 112.6240482735598);
+                bundle.putString("title","Marker in SPBU PERTAMINA2");
+                bundle.putString("data","KSukunSPBU");
 
                 Intent intent = new Intent(SukunSPBU.this, SPBUMaps.class);
                 intent.putExtras(bundle);
@@ -73,10 +73,10 @@ public class SukunSPBU extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-8.03107719528011);
-                bundle.putDouble("longitude", 112.62709376164231);
-                bundle.putString("title","Marker in SPBU Pertamina 54.651.33");
-                bundle.putString("data","SukunSPBU");
+                bundle.putDouble("latitude",-7.983287744728502);
+                bundle.putDouble("longitude", 112.614592359649);
+                bundle.putString("title","Marker in SPBU PERTAMINA");
+                bundle.putString("data","KSukunSPBU");
 
                 Intent intent = new Intent(SukunSPBU.this, SPBUMaps.class);
                 intent.putExtras(bundle);

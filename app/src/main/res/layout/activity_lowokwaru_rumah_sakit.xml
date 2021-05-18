@@ -35,21 +35,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : Rumah Sakit Universitas Brawijaya"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Jl. Soekarno - Hatta, Lowokwaru, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141"
+                    android:text="Alamat Tujuan : "
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLRSakit2"
                 android:layout_width="match_parent"
@@ -67,21 +63,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : RSI UNISMA"
-                    android:textSize="14sp" />
+                    android:text="Nama Tempat : "
+                    android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Jalan, Jalan Mayjen Haryono No.139, Dinoyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65144"
+                    android:text="Alamat Tujuan :"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLRSakit3"
                 android:layout_width="match_parent"
@@ -99,21 +91,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : Persada Hospital"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Kompleks Araya Business Centre Kav. 2-4 Jalan Panji Suroso Blimbing Purwodadi Blimbing Kota Malang Jawa Timur 65126 ID, Jl. Raden Panji Suroso No.4, Purwodadi, Kec. Blimbing, Kota Malang, Jawa Timur 65126"
+                    android:text="Alamat Tujuan : "
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLRSakit4"
                 android:layout_width="match_parent"
@@ -131,21 +119,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : Mother dan Child Hospital Puri Bunda"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Jl. Simpang Sulfat Utara No.60A, Pandanwangi, Kec. Blimbing, Kota Malang, Jawa Timur 65126"
+                    android:text="Alamat Tujuan : "
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLRSakit5"
                 android:layout_width="match_parent"
@@ -173,11 +157,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLRSakit6"
                 android:layout_width="match_parent"
@@ -205,11 +185,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLRSakit7"
                 android:layout_width="match_parent"
@@ -237,11 +213,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLRSakit8"
                 android:layout_width="match_parent"
@@ -269,11 +241,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLRSakit9"
                 android:layout_width="match_parent"
@@ -301,11 +269,8 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
+
 
         </LinearLayout>
 

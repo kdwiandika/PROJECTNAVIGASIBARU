@@ -34,21 +34,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : Klojen Traditional Market"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Jl. Cokroaminoto, Klojen, Kec. Klojen, Kota Malang, Jawa Timur 65111"
+                    android:text="Alamat Tujuan :"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnKPasar2"
                 android:layout_width="match_parent"
@@ -76,11 +72,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnKPasar3"
                 android:layout_width="match_parent"
@@ -108,11 +100,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnKPasar4"
                 android:layout_width="match_parent"
@@ -140,11 +128,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnKPasar5"
                 android:layout_width="match_parent"
@@ -172,11 +156,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnKPasar6"
                 android:layout_width="match_parent"
@@ -204,11 +184,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnKPasar7"
                 android:layout_width="match_parent"
@@ -236,11 +212,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnKPasar8"
                 android:layout_width="match_parent"
@@ -268,11 +240,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnKPasar9"
                 android:layout_width="match_parent"
@@ -300,11 +268,8 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
+
 
         </LinearLayout>
 

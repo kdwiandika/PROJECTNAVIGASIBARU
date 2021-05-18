@@ -35,21 +35,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : Pasar Omah Malang"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Kel, Jl. Kembang Kertas No.14B, RT.008/RW.004, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141"
+                    android:text="Alamat Tujuan : "
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLPasar2"
                 android:layout_width="match_parent"
@@ -67,21 +63,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : Kios pasar sayur sutami"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Sumbersari, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145"
+                    android:text="Alamat Tujuan :"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLPasar3"
                 android:layout_width="match_parent"
@@ -99,21 +91,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : Pasar Pintar Joyo Agung"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Jl. Joyo Agung No.184, Merjosari, Kec. Lowokwaru, Kota Malang, Jawa Timur 65144"
+                    android:text="Alamat Tujuan : "
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLPasar4"
                 android:layout_width="match_parent"
@@ -131,21 +119,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : Pasar Blimbing"
+                    android:text="Nama Tempat : "
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : Jl. Borobudur, Kota Malang, Jawa Timur 65126"
+                    android:text="Alamat Tujuan : "
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLPasar5"
                 android:layout_width="match_parent"
@@ -173,11 +157,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLPasar6"
                 android:layout_width="match_parent"
@@ -205,11 +185,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLPasar7"
                 android:layout_width="match_parent"
@@ -237,11 +213,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLPasar8"
                 android:layout_width="match_parent"
@@ -269,11 +241,7 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
             <LinearLayout
                 android:id="@+id/btnLPasar9"
                 android:layout_width="match_parent"
@@ -301,11 +269,8 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="2dp"
-                android:background="@color/black"/>
+
+
 
         </LinearLayout>
 
