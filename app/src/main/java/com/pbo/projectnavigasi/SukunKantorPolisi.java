@@ -25,9 +25,9 @@ public class SukunKantorPolisi extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.9822009);
-                bundle.putDouble("longitude",112.6305244);
-                bundle.putString("title","Marker in Kantor Polisi 1");
+                bundle.putDouble("latitude",-8.004275470336236);
+                bundle.putDouble("longitude", 112.61851432739115);
+                bundle.putString("title","Marker in Polsek Sukun");
 
                 Intent intent = new Intent(SukunKantorPolisi.this, KantorPolisiMaps.class);
                 intent.putExtras(bundle);
@@ -36,49 +36,49 @@ public class SukunKantorPolisi extends AppCompatActivity {
             }
         });
 
-        btnSKPolisi2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.9843829);
-                bundle.putDouble("longitude",112.6271627);
-                bundle.putString("title","Marker in SPBU Kantor Polisi 2");
-
-                Intent intent = new Intent(SukunKantorPolisi.this, KantorPolisiMaps.class);
-                intent.putExtras(bundle);
-                startActivity(intent);
-
-            }
-        });
-
-        btnSKPolisi3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.9843829);
-                bundle.putDouble("longitude",112.6271627);
-                bundle.putString("title","Marker in Kantor Polisi 3");
-
-                Intent intent = new Intent(SukunKantorPolisi.this, KantorPolisiMaps.class);
-                intent.putExtras(bundle);
-                startActivity(intent);
-
-            }
-        });
-
-        btnSKPolisi4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.9843829);
-                bundle.putDouble("longitude",112.6271627);
-                bundle.putString("title","Marker in Kantor Polisi 4");
-
-                Intent intent = new Intent(SukunKantorPolisi.this, KantorPolisiMaps.class);
-                intent.putExtras(bundle);
-                startActivity(intent);
-
-            }
-        });
+//        btnSKPolisi2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Bundle bundle = new Bundle();
+//                bundle.putDouble("latitude",-7.9843829);
+//                bundle.putDouble("longitude",112.6271627);
+//                bundle.putString("title","Marker in SPBU Kantor Polisi 2");
+//
+//                Intent intent = new Intent(SukunKantorPolisi.this, KantorPolisiMaps.class);
+//                intent.putExtras(bundle);
+//                startActivity(intent);
+//
+//            }
+//        });
+//
+//        btnSKPolisi3.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Bundle bundle = new Bundle();
+//                bundle.putDouble("latitude",-7.9843829);
+//                bundle.putDouble("longitude",112.6271627);
+//                bundle.putString("title","Marker in Kantor Polisi 3");
+//
+//                Intent intent = new Intent(SukunKantorPolisi.this, KantorPolisiMaps.class);
+//                intent.putExtras(bundle);
+//                startActivity(intent);
+//
+//            }
+//        });
+//
+//        btnSKPolisi4.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Bundle bundle = new Bundle();
+//                bundle.putDouble("latitude",-7.9843829);
+//                bundle.putDouble("longitude",112.6271627);
+//                bundle.putString("title","Marker in Kantor Polisi 4");
+//
+//                Intent intent = new Intent(SukunKantorPolisi.this, KantorPolisiMaps.class);
+//                intent.putExtras(bundle);
+//                startActivity(intent);
+//
+//            }
+//        });
     }
 }

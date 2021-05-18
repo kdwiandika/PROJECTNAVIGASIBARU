@@ -25,9 +25,9 @@ public class KlojenKantorPolisi extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.9822009);
-                bundle.putDouble("longitude",112.6305244);
-                bundle.putString("title","Marker in Kantor Polisi 1");
+                bundle.putDouble("latitude",-7.967568305343913);
+                bundle.putDouble("longitude", 112.63597632041323);
+                bundle.putString("title","Marker in Kantor SATPAS Polresta Malang Kota");
 
                 Intent intent = new Intent(KlojenKantorPolisi.this, KantorPolisiMaps.class);
                 intent.putExtras(bundle);
@@ -40,9 +40,9 @@ public class KlojenKantorPolisi extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.9843829);
-                bundle.putDouble("longitude",112.6271627);
-                bundle.putString("title","Marker in SPBU Kantor Polisi 2");
+                bundle.putDouble("latitude",-7.972074154594494);
+                bundle.putDouble("longitude", 112.63090677843525);
+                bundle.putString("title","Marker in POLRES MALANG KOTA");
 
                 Intent intent = new Intent(KlojenKantorPolisi.this, KantorPolisiMaps.class);
                 intent.putExtras(bundle);
@@ -55,9 +55,9 @@ public class KlojenKantorPolisi extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.9843829);
-                bundle.putDouble("longitude",112.6271627);
-                bundle.putString("title","Marker in Kantor Polisi 3");
+                bundle.putDouble("latitude",-7.96248353388797);
+                bundle.putDouble("longitude", 112.62595134685081);
+                bundle.putString("title","Marker in Satlantas Poresta Malang");
 
                 Intent intent = new Intent(KlojenKantorPolisi.this, KantorPolisiMaps.class);
                 intent.putExtras(bundle);
@@ -70,9 +70,9 @@ public class KlojenKantorPolisi extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.9843829);
-                bundle.putDouble("longitude",112.6271627);
-                bundle.putString("title","Marker in Kantor Polisi 4");
+                bundle.putDouble("latitude",-7.990066019716697);
+                bundle.putDouble("longitude", 112.62530506291597);
+                bundle.putString("title","Marker in Detasemen Polisi Militer");
 
                 Intent intent = new Intent(KlojenKantorPolisi.this, KantorPolisiMaps.class);
                 intent.putExtras(bundle);

@@ -25,9 +25,9 @@ public class LowokwaruSPBU extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.986216438471941);
-                bundle.putDouble("longitude", 112.62668843465708);
-                bundle.putString("title","Marker in SPBU PERTAMINA");
+                bundle.putDouble("latitude",-7.931495926899125);
+                bundle.putDouble("longitude", 112.60285445586324);
+                bundle.putString("title","Marker in SPBU Pertamina Tlogomas");
                 bundle.putString("data","LowokwaruSPBU1");
 
                 Intent intent = new Intent(LowokwaruSPBU.this, SPBUMaps.class);
@@ -41,9 +41,9 @@ public class LowokwaruSPBU extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.980593713284669);
-                bundle.putDouble("longitude", 112.63743995016918);
-                bundle.putString("title","Marker in SPBU PERTAMINA");
+                bundle.putDouble("latitude",-7.937913810591682);
+                bundle.putDouble("longitude", 112.62756736867328);
+                bundle.putString("title","Marker in SPBU Pertamina 54.651.06 Soekarno Hatta");
                 bundle.putString("data","LowokwaruSPBU1");
 
                 Intent intent = new Intent(LowokwaruSPBU.this, SPBUMaps.class);
@@ -57,9 +57,9 @@ public class LowokwaruSPBU extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.961950501492613);
-                bundle.putDouble("longitude", 112.6240482735598);
-                bundle.putString("title","Marker in SPBU PERTAMINA2");
+                bundle.putDouble("latitude",-7.957141877647392);
+                bundle.putDouble("longitude", 112.61339960360988);
+                bundle.putString("title","Marker in Pertamina Gas Station Bendungan Sutami");
                 bundle.putString("data","LowokwaruSPBU1");
 
                 Intent intent = new Intent(LowokwaruSPBU.this, SPBUMaps.class);
@@ -69,20 +69,20 @@ public class LowokwaruSPBU extends AppCompatActivity {
             }
         });
 
-        btnLSPBU4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.983287744728502);
-                bundle.putDouble("longitude", 112.614592359649);
-                bundle.putString("title","Marker in SPBU PERTAMINA");
-                bundle.putString("data","LowokwaruSPBU1");
-
-                Intent intent = new Intent(LowokwaruSPBU.this, SPBUMaps.class);
-                intent.putExtras(bundle);
-                startActivity(intent);
-
-            }
-        });
+//        btnLSPBU4.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Bundle bundle = new Bundle();
+//                bundle.putDouble("latitude",-7.983287744728502);
+//                bundle.putDouble("longitude", 112.614592359649);
+//                bundle.putString("title","Marker in SPBU PERTAMINA");
+//                bundle.putString("data","LowokwaruSPBU1");
+//
+//                Intent intent = new Intent(LowokwaruSPBU.this, SPBUMaps.class);
+//                intent.putExtras(bundle);
+//                startActivity(intent);
+//
+//            }
+//        });
     }
 }

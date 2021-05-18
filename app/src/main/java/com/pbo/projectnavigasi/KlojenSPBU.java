@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 public class KlojenSPBU extends AppCompatActivity {
 
-    String ID;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,9 +86,5 @@ public class KlojenSPBU extends AppCompatActivity {
 
             }
         });
-
-
-
-
     }
 }

@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
 public class Klojen extends AppCompatActivity {
 
@@ -14,7 +14,7 @@ public class Klojen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_klojen);
 
-        Button btnKSPBU = findViewById(R.id.btnKSPBU);
+        TextView btnKSPBU = findViewById(R.id.btnKSPBU);
         btnKSPBU.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,7 +24,7 @@ public class Klojen extends AppCompatActivity {
             }
         });
 
-        Button btnKKPolisi = findViewById(R.id.btnKKPolisi);
+        TextView btnKKPolisi = findViewById(R.id.btnKKPolisi);
         btnKKPolisi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,7 +34,7 @@ public class Klojen extends AppCompatActivity {
             }
         });
 
-        Button btnKRSakit = findViewById(R.id.btnKRSakit);
+        TextView btnKRSakit = findViewById(R.id.btnKRSakit);
         btnKRSakit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -44,7 +44,7 @@ public class Klojen extends AppCompatActivity {
             }
         });
 
-        Button btnKPasar = findViewById(R.id.btnKPasar);
+        TextView btnKPasar = findViewById(R.id.btnKPasar);
         btnKPasar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -35,17 +35,22 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : "
+                    android:text="Nama Tempat : Kantor Polsek Lowokwaru
+"
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : "
+                    android:text="Alamat Tujuan : Gang 13 Jl. MT. Haryono No.413, Dinoyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65144"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLKPolisi2"
                 android:layout_width="match_parent"
@@ -73,7 +78,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLKPolisi3"
                 android:layout_width="match_parent"
@@ -97,11 +106,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : "
+                    android:text="Alamat Tujuan :"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLKPolisi4"
                 android:layout_width="match_parent"
@@ -125,11 +138,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : "
+                    android:text="Alamat Tujuan :"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLKPolisi5"
                 android:layout_width="match_parent"
@@ -157,7 +174,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLKPolisi6"
                 android:layout_width="match_parent"
@@ -185,7 +206,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLKPolisi7"
                 android:layout_width="match_parent"
@@ -213,7 +238,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLKPolisi8"
                 android:layout_width="match_parent"
@@ -241,7 +270,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLKPolisi9"
                 android:layout_width="match_parent"
@@ -269,8 +302,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
 
         </LinearLayout>
 

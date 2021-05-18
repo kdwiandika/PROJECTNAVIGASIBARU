@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".KlojenRumahSakit">
+
     <ScrollView
         android:layout_below="@+id/relatif1"
         android:layout_width="match_parent"
@@ -34,17 +35,21 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : "
+                    android:text="Nama Tempat : RSU BRIMEDIKA MALANG"
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan :"
+                    android:text="Alamat Tujuan : Jl. Mayjend Panjaitan No.176, Penanggungan, Kec. Klojen, Kota Malang, Jawa Timur 65113"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnKRSakit2"
                 android:layout_width="match_parent"
@@ -62,24 +67,30 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : "
+                    android:text="Nama Tempat : Rumah Sakit Umum Dr Han Sik Liang"
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan :"
+                    android:text="Alamat Tujuan : Jl. Simpang Ijen No.3, Oro-oro Dowo, Kec. Klojen, Kota Malang, Jawa Timur 65119"
                     android:textSize="14sp"/>
 
             </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
 
             <LinearLayout
                 android:id="@+id/btnKRSakit3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
+                android:layout_marginBottom="10dp"
                 android:orientation="vertical"
-                android:layout_marginBottom="10dp">
+                android:padding="10dp">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -90,17 +101,22 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : "
-                    android:textSize="14sp"/>
+                    android:text="Nama Tempat : Loby Utama Rs Lavalet Malang"
+                    android:textSize="14sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan :"
-                    android:textSize="14sp"/>
+                    android:text="Alamat Tujuan : Unnamed Road, Rampal Celaket, Kec. Klojen, Kota Malang, Jawa Timur 65111"
+                    android:textSize="14sp" />
 
             </LinearLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnKRSakit4"
                 android:layout_width="match_parent"
@@ -118,17 +134,21 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : "
+                    android:text="Nama Tempat : Poli Dokter Spesialis Melati Husada"
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan :"
+                    android:text="Alamat Tujuan : Jl. Taman Slamet No.34-22, Gading Kasri, Kec. Klojen, Kota Malang, Jawa Timur 65115"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnKRSakit5"
                 android:layout_width="match_parent"
@@ -156,7 +176,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnKRSakit6"
                 android:layout_width="match_parent"
@@ -184,7 +208,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnKRSakit7"
                 android:layout_width="match_parent"
@@ -212,7 +240,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnKRSakit8"
                 android:layout_width="match_parent"
@@ -240,7 +272,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnKRSakit9"
                 android:layout_width="match_parent"
@@ -268,13 +304,14 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
 
         </LinearLayout>
 
     </ScrollView>
-
-
 
 </RelativeLayout>

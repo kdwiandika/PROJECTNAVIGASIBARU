@@ -35,19 +35,87 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : "
+                    android:text="Nama Tempat : SPBU Pertamina Tlogomas"
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : "
+                    android:text="Alamat Tujuan : Jl. Tlogomas, Tlogomas, Kec. Lowokwaru, Kota Malang, Jawa Timur 65144"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLSPBU2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Informations"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Tempat : SPBU Pertamina 54.651.06 Soekarno Hatta"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat Tujuan : Jl. Soekarno Hatta No.2, Mojolangu, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
+            <LinearLayout
+                android:id="@+id/btnLSPBU3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Informations"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Tempat : Pertamina Gas Station Bendungan Sutami"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat Tujuan : Jl. Bendungan Sutami No.5, Sumbersari, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
+            <LinearLayout
+                android:id="@+id/btnLSPBU4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
@@ -73,63 +141,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/btnLSPBU3"
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:orientation="vertical"
-                android:layout_marginBottom="10dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Informations"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Nama Tempat : "
-                    android:textSize="14sp"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : "
-                    android:textSize="14sp"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/btnLSPBU4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:orientation="vertical"
-                android:layout_marginBottom="10dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Informations"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Nama Tempat : "
-                    android:textSize="14sp"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : "
-                    android:textSize="14sp"/>
-
-            </LinearLayout>
-
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLSPBU5"
                 android:layout_width="match_parent"
@@ -157,7 +173,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLSPBU6"
                 android:layout_width="match_parent"
@@ -185,7 +205,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLSPBU7"
                 android:layout_width="match_parent"
@@ -213,7 +237,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLSPBU8"
                 android:layout_width="match_parent"
@@ -241,7 +269,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnLSPBU9"
                 android:layout_width="match_parent"
@@ -269,8 +301,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
 
         </LinearLayout>
 

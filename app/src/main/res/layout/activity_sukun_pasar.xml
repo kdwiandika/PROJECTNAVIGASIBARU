@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SukunKantorPolisi">
+    tools:context=".SukunPasar">
 
     <ScrollView
         android:layout_below="@+id/relatif1"
@@ -35,17 +35,21 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama Tempat : "
+                    android:text="Nama Tempat : Pasar Sukun"
                     android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : "
+                    android:text="Alamat Tujuan : Jalan S. Supriadi, Sukun, Kec. Sukun, Kota Malang, Jawa Timur 65147"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnSPasar2"
                 android:layout_width="match_parent"
@@ -73,7 +77,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnSPasar3"
                 android:layout_width="match_parent"
@@ -97,11 +105,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : "
+                    android:text="Alamat Tujuan :"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnSPasar4"
                 android:layout_width="match_parent"
@@ -125,11 +137,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alamat Tujuan : "
+                    android:text="Alamat Tujuan :"
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnSPasar5"
                 android:layout_width="match_parent"
@@ -157,7 +173,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnSPasar6"
                 android:layout_width="match_parent"
@@ -185,7 +205,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnSPasar7"
                 android:layout_width="match_parent"
@@ -213,7 +237,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnSPasar8"
                 android:layout_width="match_parent"
@@ -241,7 +269,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
             <LinearLayout
                 android:id="@+id/btnSPasar9"
                 android:layout_width="match_parent"
@@ -269,8 +301,11 @@
                     android:textSize="14sp"/>
 
             </LinearLayout>
-
-
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
 
         </LinearLayout>
 

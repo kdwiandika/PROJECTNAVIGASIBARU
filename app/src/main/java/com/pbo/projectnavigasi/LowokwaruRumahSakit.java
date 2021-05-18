@@ -25,9 +25,9 @@ public class LowokwaruRumahSakit extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.9773826);
-                bundle.putDouble("longitude",112.6338636);
-                bundle.putString("title","Marker in Rumah Sakit 1");
+                bundle.putDouble("latitude",-7.941226948400597);
+                bundle.putDouble("longitude", 112.6215371167566);
+                bundle.putString("title","Marker in Rumah Sakit Universitas Brawijaya");
 
                 Intent intent = new Intent(LowokwaruRumahSakit.this, RumahSakitMaps.class);
                 intent.putExtras(bundle);
@@ -40,9 +40,9 @@ public class LowokwaruRumahSakit extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.9684043);
-                bundle.putDouble("longitude",112.6365707);
-                bundle.putString("title","Marker in Rumah Sakit 2");
+                bundle.putDouble("latitude",-7.940264248395103);
+                bundle.putDouble("longitude", 112.60883342896216);
+                bundle.putString("title","Marker in RSI UNISMA");
 
                 Intent intent = new Intent(LowokwaruRumahSakit.this, RumahSakitMaps.class);
                 intent.putExtras(bundle);
@@ -55,9 +55,9 @@ public class LowokwaruRumahSakit extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.9684043);
-                bundle.putDouble("longitude",112.6365707);
-                bundle.putString("title","Marker in Rumah Sakit 3");
+                bundle.putDouble("latitude",-7.93498598335029);
+                bundle.putDouble("longitude", 112.65020826897494);
+                bundle.putString("title","Marker in Persada Hospital");
 
                 Intent intent = new Intent(LowokwaruRumahSakit.this, RumahSakitMaps.class);
                 intent.putExtras(bundle);
@@ -70,9 +70,9 @@ public class LowokwaruRumahSakit extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putDouble("latitude",-7.9684043);
-                bundle.putDouble("longitude",112.6365707);
-                bundle.putString("title","Marker in Rumah Sakit 4");
+                bundle.putDouble("latitude",-7.958765843973331);
+                bundle.putDouble("longitude", 112.65553217412712);
+                bundle.putString("title","Marker in Mother & Child Hospital Puri Bunda");
 
                 Intent intent = new Intent(LowokwaruRumahSakit.this, RumahSakitMaps.class);
                 intent.putExtras(bundle);
