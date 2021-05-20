@@ -17,7 +17,11 @@ android:id="@+id/scroll1">
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
-
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
     <LinearLayout
         android:id="@+id/btnKSPBU1"
         android:layout_width="match_parent"
@@ -44,7 +48,14 @@ android:id="@+id/scroll1">
             android:text="Alamat Tujuan : Jl. Bandung, Penanggungan, Kec. Klojen, Kota Malang, Jawa Timur 65113"
             android:textSize="14sp"/>
 
+
     </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
 
     <LinearLayout
         android:id="@+id/btnKSPBU2"
@@ -73,7 +84,11 @@ android:id="@+id/scroll1">
             android:textSize="14sp"/>
 
     </LinearLayout>
-
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
     <LinearLayout
         android:id="@+id/btnKSPBU3"
         android:layout_width="match_parent"
@@ -101,7 +116,11 @@ android:id="@+id/scroll1">
             android:textSize="14sp"/>
 
     </LinearLayout>
-
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
     <LinearLayout
         android:id="@+id/btnKSPBU4"
         android:layout_width="match_parent"
@@ -129,7 +148,11 @@ android:id="@+id/scroll1">
             android:textSize="14sp"/>
 
     </LinearLayout>
-
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
     <LinearLayout
         android:id="@+id/btnKSPBU5"
         android:layout_width="match_parent"
@@ -157,7 +180,11 @@ android:id="@+id/scroll1">
             android:textSize="14sp"/>
 
     </LinearLayout>
-
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
     <LinearLayout
         android:id="@+id/btnKSPBU6"
         android:layout_width="match_parent"
@@ -185,7 +212,11 @@ android:id="@+id/scroll1">
             android:textSize="14sp"/>
 
     </LinearLayout>
-
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
     <LinearLayout
         android:id="@+id/btnKSPBU7"
         android:layout_width="match_parent"
@@ -213,7 +244,11 @@ android:id="@+id/scroll1">
             android:textSize="14sp"/>
 
     </LinearLayout>
-
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
     <LinearLayout
         android:id="@+id/btnKSPBU8"
         android:layout_width="match_parent"
@@ -241,7 +276,11 @@ android:id="@+id/scroll1">
             android:textSize="14sp"/>
 
     </LinearLayout>
-
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
     <LinearLayout
         android:id="@+id/btnKSPBU9"
         android:layout_width="match_parent"
@@ -269,8 +308,6 @@ android:id="@+id/scroll1">
             android:textSize="14sp"/>
 
     </LinearLayout>
-
-
 
 </LinearLayout>
 

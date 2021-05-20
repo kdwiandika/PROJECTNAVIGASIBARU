@@ -17,7 +17,7 @@ public class LowokwaruPasar extends AppCompatActivity {
         LinearLayout btnLPasar1 = findViewById(R.id.btnLPasar1);
         LinearLayout btnLPasar2 = findViewById(R.id.btnLPasar2);
         LinearLayout btnLPasar3 = findViewById(R.id.btnLPasar3);
-        LinearLayout btnLPasar4 = findViewById(R.id.btnKPasar4);
+        LinearLayout btnLPasar4 = findViewById(R.id.btnLPasar4);
 
 
 
